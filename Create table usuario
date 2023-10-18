@@ -1,0 +1,11 @@
+create database bd2exercicios;
+
+use bd2exercicios;
+
+create table usuario(
+id int(11) primary key auto_increment,
+nome varchar(255) not null,
+email varchar(255) not null,
+senha varchar(255) not null,
+perfil varchar(255) not null
+);
