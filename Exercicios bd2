@@ -1,0 +1,22 @@
+-- Com base na tabela abaixo responda as perguntas
+
+create table carro (
+  id int(11) primary key auto_increment,
+  nome varchar(200) not null,
+  valor int(11),
+  endereco varchar(255)
+);
+
+-- 4) Altere o nome da tabela para 'carros'
+rename table carro to carros;
+
+-- 5) Altere o campo valor para float
+alter table carros modify valor float(8, 2);
+
+-- 6) Retire da estrutura da tabela o campo 'endereco'
+alter table carros drop column endereco;
+
+-- 7) Insira o campo 'observacao' que deve ser do tipo TEXT
+alter table carros add column observacao varchar(255);
+
+show columns from carros;
