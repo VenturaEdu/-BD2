@@ -1,0 +1,9 @@
+
+insert into usuario (nome, email, senha, perfil)
+values ('Andre Neves', 'andr@andr.com.br', sha2('123456789', 242), 'desenvolvedor');
+
+insert into usuario (nome, email, senha, perfil)
+values ('Luciene', 'lu@lu.com.br', sha2('987654321', 242), 'administrador');
+
+insert into usuario (nome, email, senha, perfil)
+values ('Ana', 'ana@ana.com.br', ('989898989', 242), 'gerente');
