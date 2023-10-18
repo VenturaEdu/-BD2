@@ -1,0 +1,33 @@
+create database bd2exercicios;
+
+testel
+
+use bd2exercicios;
+
+Tables
+
+Views Stored Procedures
+
+Function
+
+create tables usuario (
+
+id int(11) primary key auto increment,
+
+nome varchar (255) not null,
+
+email varchar(255) not null,
+
+
+senha.
+
+
+perfil varchar(255) not null,
+
+
+
+insert into usuario (nome, email, senha, perfil)
+
+values (luciene", "lu@lu.com.br 987654321, ministrator");
+ 
+- insert into usuario (nome, email, senha, perfil
