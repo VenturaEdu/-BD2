@@ -1,12 +1,11 @@
 create database bd2exercicios;
 
-testel
+
 
 use bd2exercicios;
 
 Tables
 
-Views Stored Procedures
 
 Function
 
@@ -17,9 +16,6 @@ id int(11) primary key auto increment,
 nome varchar (255) not null,
 
 email varchar(255) not null,
-
-
-senha.
 
 
 perfil varchar(255) not null,
